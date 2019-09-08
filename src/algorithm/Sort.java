@@ -34,7 +34,10 @@ public class Sort {
     public int[] insertionSort(int [] array){
         final long startTime = System.currentTimeMillis();
         int [] list = array;
+
         //implement here
+
+
 
 
 
