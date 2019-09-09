@@ -17,15 +17,6 @@ public class LowestNumber {
 
 		//find lowest number from the array
 
-//		int min = array[0];
-//		for (int i = 1; i < array.length; i++)
-//		{
-//			if (array[i] < min) {
-//				min = array[i];
-//			}
-//		}
-//		System.out.println("Lowest Number in a given array is : " + min);
-//	}}
 		int lowestNUmber = array[0];
 		for(int i : array){
 			if(i<lowestNUmber){
