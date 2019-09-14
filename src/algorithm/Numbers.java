@@ -103,7 +103,6 @@ public class Numbers {
 		long heapSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + heapSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "heap_sort", "SortingNumbers");
-		List<String> numbers5 = connectToSqlDB.readDataBase("heap_sort", "SortingNumbers");
 
 		for(String st:numbers) {
 			System.out.println(st);

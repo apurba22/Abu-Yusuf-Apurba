@@ -4,8 +4,12 @@
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +23,7 @@
   <component name="ProjectId" id="1QYZOmUUSFWxpeb8LHwHlsZUS3g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAliMidterm17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,48 +51,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Numbers">
+  <component name="RunManager" selected="Application.UseQueue">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
+    <configuration name="DataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.DataReader" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="databases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Factorial" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.FindMissingNumber" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +100,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseQueue" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -148,18 +152,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LowestNumber" />
-      <item itemvalue="Application.FindMissingNumber" />
-      <item itemvalue="Application.ConnectToSqlDB" />
-      <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.Numbers" />
+      <item itemvalue="Application.DataReader" />
+      <item itemvalue="Application.UseMap" />
+      <item itemvalue="Application.UseQueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Numbers" />
+        <item itemvalue="Application.UseQueue" />
+        <item itemvalue="Application.UseMap" />
+        <item itemvalue="Application.DataReader" />
         <item itemvalue="Application.LowestNumber" />
-        <item itemvalue="Application.ConnectToSqlDB" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.Numbers" />
       </list>
     </recent_temporary>
   </component>

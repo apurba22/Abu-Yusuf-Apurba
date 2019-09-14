@@ -1,8 +1,12 @@
 package datastructure;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+
 public class DataReader {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		/*
 		 * User API to read the below textFile and print to console.
 		 * Use BufferedReader class. 
@@ -18,9 +22,17 @@ public class DataReader {
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
 
-		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
+		String textFile = "C:\\Users\\Apurba Nibir\\IdeaProjects\\MidtermJuly2019\\src\\data\\self-driving-car.txt";
+
+		BufferedReader br = new BufferedReader(new FileReader(textFile));
 
 
+		String text = "";
+		while ((text= br.readLine())!=null){
+			System.out.println(text);
+		}
+
+		br.close();
 
 	}
 
